@@ -13,4 +13,14 @@ function bubbleSort(array) {
   return array;
 }
 
-console.log(bubbleSort(array));
+console.log("loop formula",bubbleSort(array));
+
+
+function bubble(array) {
+
+    array.sort((a,b) => a-b);
+
+    return array;
+}
+
+console.log("using method",bubble(array));
