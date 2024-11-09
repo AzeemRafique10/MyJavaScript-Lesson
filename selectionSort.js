@@ -1,13 +1,13 @@
 // Selection Sort
 
 function selectionSort(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    // Outerloop start from 0 index to last index
+  for (let i = 0; i < arr.length; i++) { // Outerloop start from 0 index to last index
+    
     let min = i; //minimum index to start from index
-    for (let j = i + 1; j < arr.length; j++) {
-      // Inner loop start for compare index values
-      if (arr[min] > arr[j]) {
-        // condition for compare index values
+    
+    for (let j = i + 1; j < arr.length; j++) { // Inner loop start for compare index values
+      
+        if (arr[min] > arr[j]) {  // condition for compare index values
         min = j;
       }
     }
